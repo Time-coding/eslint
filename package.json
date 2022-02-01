@@ -1,14 +1,20 @@
 {
   "name": "eslint-plugin-foo",
-  "version": "0.0.0",
+  "version": "0.0.7",
   "description": "orts定制的foo实例",
   "keywords": [
     "eslint",
     "eslintplugin",
-    "eslint-plugin"
+    "eslint-plugin",
+    "foo"
   ],
   "author": "orts",
-  "main": "lib/index.js",
+  "homepage": "https://github.com/Time-coding/eslint-plugin-foo",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Time-coding/eslint-plugin-foo"
+  },
+  "main": "index.js",
   "scripts": {
     "lint": "eslint .",
     "test": "mocha tests --recursive"
@@ -18,7 +24,7 @@
   },
   "devDependencies": {
     "eslint": "^8.0.1",
-    "eslint-plugin-eslint-plugin": "^4.0.1",
+    "eslint-plugin-eslint-plugin": "^4.1.0",
     "eslint-plugin-node": "^11.1.0",
     "mocha": "^9.1.3"
   },
