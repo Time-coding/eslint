@@ -1,6 +1,6 @@
 {
   "name": "eslint-plugin-foo",
-  "version": "0.0.7",
+  "version": "0.0.9",
   "description": "orts定制的foo实例",
   "keywords": [
     "eslint",
